@@ -49,7 +49,7 @@ You can then download `latexdiff` from [CTAN](https://ctan.org/tex-archive/suppo
 If you have two folders with multiple nested files included in the main files, you can use the `--flatten` option to obtain a single `diff.tex` output. 
 For example
 ```
-latexdiff v2/main.tex v1/main.tex --flatten > diff.tex
+latexdiff v1/main.tex v2/main.tex --flatten > diff.tex
 ```
 will produce the desired output. 
 
